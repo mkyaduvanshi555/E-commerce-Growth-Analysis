@@ -1,4 +1,4 @@
-# E-commerce Recommendation Engine: A Business Analyst Portfolio Project
+# E-commerce Recommendation Engine: Business Analysis
 
 Elevator Pitch: This is an end-to-end portfolio project demonstrating the complete Business Analyst lifecycle. I identified that a major e-commerce platform was suffering from Low Average Order Value (AOV) due to poor product discovery.
 
@@ -12,7 +12,7 @@ This Tableau dashboard was the final artifact, proving the project successfully 
 
 ## Project Artifacts Repository
 
-#### This repository contains all 11 professional artifacts created for this project, organized by phase.
+### This repository contains all 11 professional artifacts created for this project, organized by phase.
 
 Phase 1: Initiation & Scoping (The "Why")
 
@@ -50,7 +50,7 @@ Phase 6: Final Presentation
 
 ## Project Story & Methodology
 
-#### This project followed a 6-phase process, moving from a high-level business problem to a proven, data-driven solution.
+### This project followed a 6-phase process, moving from a high-level business problem to a proven, data-driven solution.
 
 Phase 1: The Business Problem
 
