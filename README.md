@@ -14,13 +14,13 @@ This Tableau dashboard was the final artifact, proving the project successfully 
 
 ### This repository contains all 11 professional artifacts created for this project, organized by phase.
 
-Phase 1: Initiation & Scoping (The "Why")
+#### Phase 1: Initiation & Scoping (The "Why")
 
 01_Project_Vision_BRD.pdf
 
 01_Stakeholder_Matrix.pdf
 
-Phase 2: Analysis & Planning (The "How")
+#### Phase 2: Analysis & Planning (The "How")
 
 02_BPMN_As_Is_Process.png
 
@@ -34,17 +34,17 @@ Phase 2: Analysis & Planning (The "How")
 
 02_RTM_Traceability_Matrix.xlsx
 
-Phase 3: Technical Analysis (The "Engine")
+#### Phase 3: Technical Analysis (The "Engine")
 
 03_Market_Basket_Analysis.ipynb
 
-Phase 4 & 5: Validation & Visualization (The "Proof")
+#### Phase 4 & 5: Validation & Visualization (The "Proof")
 
 04_AB_Test_Simulated_Data.xlsx
 
 05_Tableau_Dashboard_Results.png
 
-Phase 6: Final Presentation
+#### Phase 6: Final Presentation
 
 06_Final_Project_Presentation.pdf
 
@@ -52,13 +52,13 @@ Phase 6: Final Presentation
 
 ### This project followed a 6-phase process, moving from a high-level business problem to a proven, data-driven solution.
 
-Phase 1: The Business Problem
+#### Phase 1: The Business Problem
 
 The project began by identifying a core business problem (from the BRD): the e-commerce platform's revenue was suffering from a Low Average Order Value (AOV). My stakeholder analysis (Stakeholder_Matrix.pdf) confirmed the E-commerce Manager was accountable for this KPI and the primary sponsor.
 
 Project Goal: To increase AOV by 5% within six months.
 
-Phase 2: Analysis & Solution Design
+#### Phase 2: Analysis & Solution Design
 
 I first mapped the "As-Is" (Problem) Process to visually identify why AOV was low. The diagram showed zero opportunities for product discovery in the checkout flow.
 
@@ -66,13 +66,13 @@ Next, I designed the "To-Be" (Solution) Process. This new flow strategically ins
 
 These requirements were formally documented in a FRS and translated into an Agile Product Backlog with 20+ specific, testable Acceptance Criteria. Finally, an RTM was created to trace all requirements to their test cases.
 
-Phase 3: The Technical "Engine"
+#### Phase 3: The Technical "Engine"
 
 To power the FR-3: "Customers Also Bought" feature, I performed a technical analysis on 541,000+ real transactions from the UCI Online Retail dataset.
 
 Using Python, Pandas (for data cleaning), and the mlxtend library (for the Apriori algorithm), I successfully built the "brain" of the recommendation engine. This analysis produced a final table of high-confidence "IF...THEN..." rules (e.g., "IF a user buys 'RED TEACUP', THEN they are 76% likely to buy 'GREEN TEACUP'").
 
-Phase 4 & 5: Proving the Business Value
+#### Phase 4 & 5: Proving the Business Value
 
 With the logic built, I simulated an A/B test (ab_test_data.xlsx) to measure the feature's impact.
 
@@ -82,7 +82,7 @@ AOV Lift (Primary Goal): +6.29% (Goal was +5%)
 
 Conversion Rate Lift (Bonus Win): +4.84%
 
-Phase 6: The Final Presentation
+#### Phase 6: The Final Presentation
 
 The entire project, from "Problem" to "Profit," was summarized in the 06_Final_Project_Presentation.pdf deck, which tells the complete story of how business analysis and data-driven solutions can create real-world revenue.
 
